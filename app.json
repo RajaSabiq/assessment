@@ -6,6 +6,9 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "packagerOpts": {
+      "config": "metro.config.js"
+    },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -14,9 +17,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
